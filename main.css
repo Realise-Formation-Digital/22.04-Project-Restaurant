@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: serif;
+}
+
+#background {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+
+#navbarul a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navbarul li:hover {
+    border-top: thin solid white;
+}
