@@ -12,10 +12,35 @@
 }
 
 #navbarul a {
+    margin: 0 1em 0 1em;
+    padding-top: 2.5em;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 #navbarul li:hover {
     border-top: 2px solid white;
+}
+
+#brand {
+    padding-top: 2.8em;
+    margin-right: 15.5%;
+    padding-left: 10.5%;
+}
+
+#social {
+    padding-top: 2.9em;
+}
+
+#social a {
+    padding-right: 1.2em;
+}
+
+
+#h1 {
+    font-weight: bold;
+}
+
+#text {
+    padding-top: 10%;
 }
