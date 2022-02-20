@@ -1,0 +1,64 @@
+.section-menu{
+    background-image: url("/images/background-menu.png");
+    object-fit: cover;
+    background-size: cover;
+    font-size: 32px;
+    /* height: 75vh; */
+    font-family: 'Abril Fatface', cursive;
+    border: 2px solid red;
+    
+}
+.section-menu h3{
+    font-size: 1em;
+    
+}
+.gold-color{
+    color:#bf8219;
+}
+.item-al{
+    border-bottom: 1px solid #bf8219 ;
+    font-size: 0.6em;
+    padding-right: 00.5em;
+    opacity: 0.8;
+    
+    
+}
+.item-al-description{
+    font-size: 0.4em;
+    padding: 0.5em 0 1em 0;
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu1{
+    margin: 70px;
+}
+#item-al-mackerel{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#olive-special-description{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#main-dishes, #salads{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+#special1{
+    background: rgb(212,210,210);
+    background: linear-gradient(90deg, rgba(212,210,210,0.16290266106442575) 0%, rgba(191,130,25,1) 100%);
+    font-size: 00.4em;
+    padding: 0 1em;
+    margin: 0;
+    color: white;
+}
+#special-calque2{
+    background-image: url(/images/specialcalque2.png );
+    background-size: cover;
+    font-size: 00.4em;
+    padding: 0 1em;
+    margin: 0;
+    color: white;
+}
+
+
