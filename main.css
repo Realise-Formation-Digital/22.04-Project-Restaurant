@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#plat {
+    background-image: url(images/background.png);
+    background-size: cover;
+    height: 100vh;
+}
