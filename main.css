@@ -1,0 +1,38 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#background {
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+#gap {
+    gap: 6em;
+}
+
+#card h1 {
+    color: rgb(200, 159, 45);
+}
+
+#card p {
+    font-size: 20px;
+}
+
+.card {
+    border: none !important;
+}
+
+.btn {
+    background-color: rgb(200, 159, 45) !important;
+}
+
+label {
+    color: rgb(200, 159, 45);
+    font-weight: bold;
+}
