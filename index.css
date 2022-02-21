@@ -3,9 +3,9 @@
     object-fit: cover;
     background-size: cover;
     font-size: 32px;
-    /* height: 75vh; */
+    height: 100vh;
     font-family: 'Abril Fatface', cursive;
-    border: 2px solid red;
+    
     
 }
 .section-menu h3{
@@ -30,7 +30,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .menu1{
-    margin: 70px;
+    margin: 0px;
+    padding-top: 50px;
 }
 #item-al-mackerel{
     margin-bottom: 0;
