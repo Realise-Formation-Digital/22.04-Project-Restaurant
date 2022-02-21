@@ -10,7 +10,7 @@
     <!--Bootstrap/CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>
+<body id="body">
 
     <section id="background">
 
@@ -63,24 +63,28 @@
 
         </nav>
         
-        <section id="text" class="container">
+        <section id="sec2" class="container">
 
-            <div class="row d-flex justify-content-center">
+            <div class="card bg-transparent">
 
-                <h1 id="h1" class="text-white text-center display-1 col-7 mb-3">the right ingredients for the right food</h1>
+                <div class="card-body row d-flex justify-content-center">
 
-                <div class="row d-flex justify-content-center">
+                    <h1 id="h1" class="text-white text-center card-title mb-3 col-7">the right ingredients for the right food</h1>
 
-                    <img class="w-25 col-8 mb-5" src="img/separations.png" alt="">
+                    <div class="row d-flex justify-content-center">
 
-                </div>
+                        <img class="w-25 mb-5 col-3" src="img/separations.png" alt="">
 
-                <div class="row d-flex justify-content-center">
+                    </div>
 
-                    <button class="btn btn-dark col-2 me-4 opacity-75">BOOK A TABLE</button>
+                    <div class="row d-flex justify-content-center">
 
-                    <button class="btn btn-light opacity-75 col-2 text-white">SEE THE MENU</button>
-                    
+                        <button id="button1" class=" btn btn-dark card-link me-4 col-4 col-md-2 rounded-0">BOOK A TABLE</button>
+
+                        <button id="button2" class="btn btn-light card-link col-4 col-md-2 rounded-0 text-white">SEE THE MENU</button>
+
+                    </div>
+
                 </div>
 
             </div>

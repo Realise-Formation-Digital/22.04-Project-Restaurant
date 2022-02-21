@@ -13,7 +13,7 @@
 
 #navbarul a {
     margin: 0 1em 0 1em;
-    padding-top: 2.5em;
+    padding-top: 2em;
     font-weight: bold;
     font-size: 24px;
 }
@@ -36,11 +36,41 @@
     padding-right: 1.2em;
 }
 
+#sec2 {
+    height: 77vh !important;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border: none !important;
+}
 
 #h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
     font-weight: bold;
 }
 
-#text {
-    padding-top: 10%;
+#button1 {
+    opacity: 0.8;
 }
+
+#button2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #h1 {
+        font-size: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    #h1 {
+        font-size: 45px;
+    }
+  }
