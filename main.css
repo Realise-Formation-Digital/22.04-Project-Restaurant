@@ -1,7 +1,7 @@
 * { margin: 0;
     padding: 0;
-    box-sizing: border-box;
     max-width: 100%;
+    max-height: 100%;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -9,11 +9,11 @@
     background-image: url(img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    min-height: 75vh;
 }
 
 #gap {
-    gap: 6em;
+    gap: 5em;
 }
 
 #card h1 {
@@ -21,11 +21,15 @@
 }
 
 #card p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .card {
     border: none !important;
+}
+
+#divider1 {
+    width: 58%;
 }
 
 .btn {
@@ -36,3 +40,21 @@ label {
     color: rgb(200, 159, 45);
     font-weight: bold;
 }
+
+
+
+@media only screen and (max-width: 1200px) {
+    body #background {
+        object-fit: cover;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .reserv {
+        margin-left: 1.5rem;
+    }
+
+    #date1 {
+        padding-bottom: 1rem;
+    }
+  }
