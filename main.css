@@ -1,3 +1,4 @@
+/* regle general pour la page*/
 * {
     box-sizing: border-box;
     max-width: 100%;
@@ -5,12 +6,14 @@
     font-family: serif;
 }
 
+/*image de fond*/
 #background {
     background-image: url(img/background.jpg);
     background-size: cover;
     height: 90vh;
 }
 
+/* regle css pour le navbar*/
 #navbarul a {
     margin: 0 1em 0 1em;
     padding-top: 2em;
@@ -18,16 +21,19 @@
     font-size: 24px;
 }
 
+/* effect quand on passe par dessus du navbar*/
 #navbarul li:hover {
     border-top: 2px solid white;
 }
 
+/* position pour le Lambda*/
 #brand {
     padding-top: 2.8em;
     margin-right: 15.5%;
     padding-left: 10.5%;
 }
 
+/* regle pour les social media*/
 #social {
     padding-top: 2.9em;
 }
@@ -36,22 +42,26 @@
     padding-right: 1.2em;
 }
 
+/*position pour le container central*/
 #sec2 {
     height: 77vh !important;
     display: flex;
     align-items: center;
 }
 
+/*regle pour container central*/ 
 .card {
     border: none !important;
 }
 
+/*regle pour le h1*/
 #h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 80px;
     font-weight: bold;
 }
 
+/* Styles pour le button*/
 #button1 {
     opacity: 0.8;
 }
@@ -62,7 +72,7 @@
 }
 
 
-
+/*Responsivite de la page*/
 @media only screen and (max-width: 768px) {
     #h1 {
         font-size: 60px;
