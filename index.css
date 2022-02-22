@@ -33,6 +33,7 @@
     margin: 0px;
     padding-top: 50px;
 }
+
 #item-al-mackerel{
     margin-bottom: 0;
     padding-bottom: 0;
@@ -67,6 +68,7 @@
     margin-right: 0;
     padding-right: 0.5em;
 }
+/* section footer */
 footer{
     background-color: black;
     color: white;
@@ -104,9 +106,22 @@ footer{
     padding-right: 10%;
 }
  #about-us{
-    padding-left: 10%;
-}
+     padding-left: 10%;
+    }
+    
+    @media screen and (max-width: 992px){
+        #espace{
+           
+            display: none;
+        }
+        #about-us, #our-location, #openning-hours{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
 
-
-
-
+        
+    }
+    
+    
+    
+    
