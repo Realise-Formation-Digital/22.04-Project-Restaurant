@@ -1,3 +1,4 @@
+/*Styles pour la page*/
 * { margin: 0;
     padding: 0;
     max-width: 100%;
@@ -5,6 +6,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/*Image background*/
 #background {
     background-image: url(img/background.png);
     background-size: cover;
@@ -12,10 +14,12 @@
     min-height: 75vh;
 }
 
+/*espace entre les foto et le form*/
 #gap {
     gap: 5em;
 }
 
+/* styles pour la card */
 #card h1 {
     color: rgb(200, 159, 45);
 }
@@ -28,21 +32,24 @@
     border: none !important;
 }
 
+/*taille pour le divider*/
 #divider1 {
     width: 58%;
 }
 
+/*couleur pour le button*/
 .btn {
     background-color: rgb(200, 159, 45) !important;
 }
 
+/* couleur pour le form*/
 label {
     color: rgb(200, 159, 45);
     font-weight: bold;
 }
 
 
-
+/* styles css pour la responsivite*/
 @media only screen and (max-width: 1200px) {
     body #background {
         object-fit: cover;
