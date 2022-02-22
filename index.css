@@ -3,7 +3,7 @@
     object-fit: cover;
     background-size: cover;
     font-size: 32px;
-    height: 100vh;
+    min-height: 77vh;
     font-family: 'Abril Fatface', cursive;
     
     
