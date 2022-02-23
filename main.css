@@ -355,4 +355,35 @@ footer{
         padding-bottom: 1rem;
     }
   }
+/*id du niveau 0*/
+#image_background{
+    background-image: url("/photos/background_ingredients_N0.jpg");
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100%;  
+}
 
+/*class du niveau SEPARATEUR (N1)*/
+#img-card {
+    background-image: url(photos/ingredients_N1.png);
+    background-size: cover;
+}
+
+/*3 formes rectangulaires (N1) */
+#cardcont {
+    max-height: 100%;
+    display: flex;
+    align-content: center;
+}
+/*2 EME RECTANGLE (N1)*/
+#ingre {
+    background-image: url(photos/ingredients_N2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#listingre {
+    line-height: 2;
+    font-size: 20px;
+}
