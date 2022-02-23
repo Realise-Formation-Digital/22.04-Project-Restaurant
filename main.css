@@ -4,10 +4,32 @@
     max-width: 100%;
     height: auto;
     box-sizing: border-box;
+    font-family: serif;
 }
 
 #plat {
     background-image: url(images/background.png);
+    background-position: bottom;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+}
+
+#espace-blanc {
+    height: 15vh;
+}
+
+.card {
+    border: none !important;
+}
+
+#img-card {
+    background-image: url(images/Text\ Background.png);
+}
+
+#bottom-card {
+    padding-bottom: 5rem;
+}
+
+#quoteMark {
+    font-size: 1000px;
 }
