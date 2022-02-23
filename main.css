@@ -1,3 +1,4 @@
+
 /* regle general pour la page*/
 * {
     box-sizing: border-box;
@@ -84,3 +85,42 @@
         font-size: 45px;
     }
   }
+
+
+#poid-de-principal{
+    margin-top: 200px;
+
+}
+
+  #boite-assiete{
+      padding: 50px;
+}
+
+#nourriture{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    color:#bf8219;
+}
+#nourriture-diago
+{
+    text-align: center;
+}
+#grandeur
+{width: 350px;}
+
+#about-grandeur{
+    margin-bottom: 25px;
+}
+#texte-de-base{
+    text-align: justify;
+}
+@media screen and (max-width:768px){
+    #poid-de-principal{
+        width: 100%;
+        margin: 0;
+        margin-top: 100px;
+    }
+    #about-grandeur{
+        width: 150px;
+    }
+}
