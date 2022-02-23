@@ -1,0 +1,127 @@
+.section-menu{
+    background-image: url("/images/background-menu.png");
+    object-fit: cover;
+    background-size: cover;
+    font-size: 32px;
+    min-height: 77vh;
+    font-family: 'Abril Fatface', cursive;
+    
+    
+}
+.section-menu h3{
+    font-size: 1em;
+    
+}
+.gold-color{
+    color:#bf8219;
+}
+.item-al{
+    border-bottom: 1px solid #bf8219 ;
+    font-size: 0.6em;
+    padding-right: 00.5em;
+    opacity: 0.8;
+    
+    
+}
+.item-al-description{
+    font-size: 0.4em;
+    padding: 0.5em 0 1em 0;
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu1{
+    margin: 0px;
+    padding-top: 50px;
+}
+
+#item-al-mackerel{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#olive-special-description{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#main-dishes, #salads{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+#special1{
+    background: rgb(212,210,210);
+    background: linear-gradient(90deg, rgba(212,210,210,0.16290266106442575) 0%, rgba(191,130,25,1) 100%);
+    font-size: 00.4em;
+    padding: 0 ;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+#special-calque2{
+    background-image: url(/images/specialcalque2.png );
+    background-size: cover;
+    font-size: 00.4em;
+    padding: 0 ;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+#special1-box, #special2-box{
+    margin-right: 0;
+    padding-right: 0.5em;
+}
+/* section footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.h3footer{
+    font-size: 24px;
+    margin-top: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.img-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 0;
+}
+.img-box img{
+    width: 160px;
+}
+.p-footer{
+    font-size: 14px;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
+.footer-img{
+    width: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+#p-special-footer{
+    margin-bottom: 50px;
+}
+#our-location{
+    padding-right: 10%;
+}
+ #about-us{
+     padding-left: 10%;
+    }
+    
+    @media screen and (max-width: 992px){
+        #espace{
+           
+            display: none;
+        }
+        #about-us, #our-location, #openning-hours{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        
+    }
+    
+    
+    
+    
