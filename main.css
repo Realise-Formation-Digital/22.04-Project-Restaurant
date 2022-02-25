@@ -10,14 +10,14 @@
 }
 
 /*image de fond*/
-#background1 {
+.background1 {
     background-image: url(./img/background.jpg);
     background-size: cover;
     min-height: 90vh;
 }
 
 /* regle css pour le navbar*/
-#navbarul a {
+.navbarul a {
     margin: 0 1em 0 1em;
     padding-top: 2em;
     font-weight: bold;
@@ -25,28 +25,28 @@
 }
 
 /* effect quand on passe par dessus du navbar*/
-#navbarul li:hover {
+.navbarul li:hover {
     border-top: 2px solid white;
 }
 
 /* position pour le Lambda*/
-#brand {
+.brand {
     padding-top: 2.8em;
     margin-right: 15.5%;
     padding-left: 10.5%;
 }
 
 /* regle pour les social media*/
-#social {
+.social {
     padding-top: 2.9em;
 }
 
-#social a {
+.social a {
     padding-right: 1.2em;
 }
 
 /*position pour le container central*/
-#sec2 {
+.sec2 {
     height: 77vh !important;
     display: flex;
     align-items: center;
@@ -62,15 +62,15 @@
     box-sizing: border-box;
     font-family: serif;
 }
-
-#plat {
+/* .plat  .espace-blanc correspond à la section review */
+.plat {
     background-image: url(images/background.png);
     background-position: bottom;
     background-size: cover;
     min-height: 100vh;
 }
 
-#espace-blanc {
+.espace-blanc {
     height: 15vh;
 }
 
@@ -93,7 +93,7 @@
 }
 
 /*espace entre les foto et le form*/
-#gap {
+.gap {
     gap: 5em;
 }
 
