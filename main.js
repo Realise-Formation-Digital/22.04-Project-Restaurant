@@ -30,7 +30,7 @@ console.log(element)
 
 
 
-// Ancien code fuctionnelle
+// Ancien code fuctionnel
 
 // ----------------Création de la variable et écoute du clique
 
