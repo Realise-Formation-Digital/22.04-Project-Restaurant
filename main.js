@@ -30,6 +30,9 @@
 // element.scrollIntoView(false);
 // element.scrollIntoView({block: "end"});
 // element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+  });
 
 
 let linkhome = document.getElementById("linkhome");
