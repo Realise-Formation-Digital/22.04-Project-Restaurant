@@ -93,14 +93,19 @@
 
                         <button id="button1" class=" btn btn-dark card-link me-4 col-4 col-md-2 rounded-0">BOOK A TABLE</button>
 
-                        <button id="button2" class="btn btn-light card-link col-4 col-md-2 rounded-0 text-white">SEE THE MENU</button>
+
+
+
+                        <button type="button" class="btn btn-dark card-link col-4 col-md-2 rounded-0 text-white " data-toggle="modal" data-target="#exampleModalLong">SEE THE MENU</button>                      
+
+
+
+
+
 
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
     </section>
@@ -156,11 +161,46 @@
                     <div id="ingre" class="card-img img fluid mt-5 mb-5 d-none d-lg-inline">
 
                         <ul id="listingre" class="list-unstyled">
-                            <li><i class="fa-solid fa-check"></i> Canary grass</li>
-                            <li><i class="fa-solid fa-check"></i> Whole Grain Stamp</li>
-                            <li><i class="fa-solid fa-check"></i> Dactyloctenium aegyptium</li>
-                            <li><i class="fa-solid fa-check"></i> Algal food ingredients</li>
-                            <li><i class="fa-solid fa-check"></i> Fermented bean paste</li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Canary grass
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="1">
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Whole Grain Stamp
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="1">
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Dactyloctenium aegyptium
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="1">
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Algal food ingredients
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="1">
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Fermented bean paste
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="1">
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Canary grass
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="1">
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Whole Grain Stamp
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="1">
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Dactyloctenium aegyptium 
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="1">
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Algal food ingredients
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="1">
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Fermented bean paste
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="1">
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -174,7 +214,7 @@
         <section id="menu" class="section-menu">
             <!-- ce div est le grand container -->
             <div class="menu1 row justify-content-center ">
-                <!-- première colonne -->
+                <!-- première colonne ------------------------------------------------------------------------------------------------>
                 <div id="appetisers-salad"class="col-lg-3 col-10">
 
                     <div id="appetisers" class="appetisers ">
@@ -187,18 +227,24 @@
                         </div>
                         
                         <div class="item-al d-flex justify-content-between gold-color">
-                            <span class="item-al-title ">Tsatsiki</span>
-                            <span class="item-al-price">$3.99</span>
+                            <span class="item-al-title">Tsatsiki</span>
+                            <span id="Price1" class="item-al-price">$4.00
+                                <input type="checkbox" id="checkbox_1" onclick="sommePrix()" name="Price" value="4.00">
+                            </span>
                         </div>
                         <div class="item-al-description font-normal">Refreshing traditional cucumber and garlic yoghurt dip</div>
                         <div class="item-al d-flex justify-content-between gold-color">
                             <span class="item-al-title">Aubergine Salad</span>
-                            <span class="item-al-price">$5.50</span>
+                            <span id="Price2" class="item-al-price">$5.50
+                                <input type="checkbox" id="checkbox_2" onclick="sommePrix()" name="Price" value="5.50">
+                            </span>
                         </div>
                         <div class="item-al-description font-normal">Pureed eggplant,garlic,green pepper and tomato dip</div>
                         <div class="item-al d-flex justify-content-between gold-color">
                             <span class="item-al-title">Aubergine Salad</span>
-                            <span class="item-al-price">$5.25</span>
+                            <span id="Price3" class="item-al-price">$5.25
+                                <input type="checkbox" id="checkbox_3" onclick="sommePrix()" name="Price" value="5.25">
+                            </span>
                         </div>
                         <div class="item-al-description">Pureed eggplant,garlic,green pepper and tomato dip</div>
 
@@ -214,7 +260,9 @@
                         </div>
                         <div class="item-al d-flex justify-content-between gold-color">
                             <span class="item-al-title">Olive Special</span>
-                            <span class="item-al-price">$5.99</span>
+                            <span id="Price4" class="item-al-price">$6.00
+                                <input type="checkbox" id="checkbox_4" onclick="sommePrix()" name="Price" value="6.00">
+                            </span>
                         </div>
                         <div id="olive-special-description" class="item-al-description">
                             Refreshing traditional cucumber and garlic yoghurt dip
@@ -228,14 +276,18 @@
                         </div>
                         <div class="item-al d-flex justify-content-between gold-color">
                             <span class="item-al-title">Greek Salad</span>
-                            <span class="item-al-price">$5.50</span>
+                            <span id="Price5" class="item-al-price">$5.50  
+                                <input type="checkbox" id="checkbox_5" onclick="sommePrix()" name="Price" value="5.50">
+                            </span>
                         </div>
                         <div class="item-al-description">
                             Pureed eggplant,garlic,green pepper and tomato dip
                         </div>
                         <div class="item-al d-flex justify-content-between gold-color">
                             <span class="item-al-title">Greek Salad</span>
-                            <span class="item-al-price">$5.25</span>
+                            <span id="Price6" class="item-al-price">$5.25
+                                <input type="checkbox" id="checkbox_6" onclick="sommePrix()" name="Price" value="5.25">
+                            </span>
                         </div>    
                         <div class="item-al-description">
                             Pureed eggplant,garlic,green pepper and tomato dip
@@ -245,7 +297,7 @@
             
                 <!-- cet espace me permet de garder un espace entre les deux colonnes -->
                 <div id="espace" class="col-1"></div>
-                    <!-- le div suivant représente la deuxieme colonne -->
+                    <!-- le div suivant représente la deuxieme colonne --------------------------------------------------------->
                 <div id="starters-menu"class="col-lg-3 col-10">
     
                 <div id="starters" class="Starters">
@@ -258,14 +310,18 @@
                     </div>
                     <div class="item-al d-flex justify-content-between gold-color">
                         <span class="item-al-title">Haloumi</span>
-                        <span class="item-al-price">$3.99</span>
+                        <span id="Price7" class="item-al-price">$4.00
+                            <input type="checkbox" id="checkbox_7" onclick="sommePrix()" name="Price" value="4.00">
+                        </span>
                     </div>
                     <div class="item-al-description">
                         Refreshing traditional cucumber and garlic yoghurt dip
                     </div>
                     <div class="item-al d-flex justify-content-between gold-color">
                         <span class="item-al-title">Spinach pie</span>
-                        <span class="item-al-price">$5.50</span>
+                        <span id="Price8" class="item-al-price">$5.50
+                            <input type="checkbox" id="checkbox_8" onclick="sommePrix()" name="Price" value="5.50">
+                        </span>
                     </div>
                     <div class="item-al-description">
                         Pureed eggplant,garlic,green pepper and tomato dip
@@ -283,7 +339,9 @@
                     </div>
                     <div class="item-al d-flex justify-content-between gold-color">
                         <span class="item-al-title">Cornish Mackerel</span>
-                        <span class="item-al-price">$5.99</span>
+                        <span id="Price9" class="item-al-price">$6.00
+                            <input type="checkbox" id="checkbox_9" onclick="sommePrix()" name="Price" value="6.00">
+                        </span>
                     </div>
                     <div id="item-al-mackerel" class="item-al-description">
                         Refreshing traditional cucumber and garlic yoghurt dip
@@ -296,8 +354,11 @@
                             </div>
                         </div>
                         <div class="item-al d-flex justify-content-between gold-color">
-                            <span id="roast-lamb-title" class="item-al-title">Roast Lamb</span>
-                            <span class="item-al-price">$5.50</span>
+                            <label for="checkbox9_id" id="roast-lamb-title" class="item-al-title">Roast Lamb</label>
+                            <span id="Price10" class="item-al-price">$5.50
+                                <input type="checkbox" id="checkbox_10" onclick="sommePrix()" name="Price" value="5.50">
+                            </span>
+
                         </div>
                         <div class="item-al-description">
                             Pureed eggplant,garlic,green pepper and tomato dip
@@ -306,23 +367,32 @@
                     </div>
 
                     <div class="item-al d-flex justify-content-between gold-color">
-                        <span class="item-al-title">Fried Chicken</span>
-                        <span class="item-al-price">$5.25</span>
+                        <span id="Price11" class="item-al-title">Fried Chicken</span>
+                        <span class="item-al-price">$5.25
+                            <input type="checkbox" onclick="sommePrix()" name="Price" id="checkbox_11" value="5.25">
+                        </span>
+                        
                     </div>
                     <div class="item-al-description">
                         Pureed eggplant,garlic,green pepper and tomato dip
                     </div>
                     <div class="item-al d-flex justify-content-between gold-color">
-                        <span class="item-al-title">Pastitsio</span>
-                        <span class="item-al-price">$5.99</span>
+                        <span id="Price12" class="item-al-title">Pastitsio</span>
+                        <span class="item-al-price">$6.00
+                            <input type="checkbox" id="checkbox_12" onclick="sommePrix()" name="Price" value="6.00">
+                        </span>
                     </div>
                     <div class="item-al-description">
                         Refreshing traditional cucumber and garlic yoghurt dip
                     </div>
+                    <div class="row align-items-center" id="resultat" style="border-style:ridge; border-color:rgb(200, 159, 45);"></div>
                 </div>
+                <div class= "buttonDiv">
+                    <input type="button" class="button" value="Calculate Total" id="calcButton" onclick="afficherPrix()">
+                    </div>
             </div>
         </section>
-
+<!-- ------------------------------------------------------------------------------------------------------------------- -->
     
 
     <section id="reviews" class="img-fluid plat">
@@ -494,7 +564,7 @@
     
                     <!-- colonne 1 -->
                     <!--Revise code erreur!-->
-                    <div class="box  col-10 col-md-3 ">
+                    <div class="col-10 col-md-3 ">
                         <div id="about-us">
         
                             <h3 class="h3footer">About Us</h3>
@@ -518,7 +588,7 @@
     
                 <!-- colonne 2 -->
     
-                    <div id="openning-hours" class="box col-10 col-md-3 ">
+                    <div id="openning-hours" class="col-10 col-md-3 ">
     
                         <h3 class="h3footer">Openning Hours</h3>
     
@@ -541,7 +611,7 @@
                     </div>
     
                     <!-- colonne 3 -->
-                    <div id="our-location" class="box col-10 col-md-3 ">
+                    <div id="our-location" class="col-10 col-md-3 ">
     
                         <h3 class="h3footer">Our Location</h3>
     
@@ -568,7 +638,7 @@
         </footer>
 
     </section>
-
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <script src="navigation.js"> </script>
