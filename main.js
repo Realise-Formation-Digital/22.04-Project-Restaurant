@@ -1,131 +1,67 @@
-// let a = document.getElementsByClassName('link-home');
-
-// for (let a of array) {
-//   a.addEventListener("click", clickHandler);
-// }
-
-
-
-// let a = document.getElementById('reservations').scrollIntoView();
-
-// for ("reservations") {
-// a.addEventListener("click", clickHandler)};
-
-// let element = document.getElementsByClassName("link");
-
-
-// const tableaudeLiens = document.getElementsByClassName("nav-link").scrollIntoView();
-
-// for (item of tableaudeLiens) {
-//     item.addEventListener("click", function(e) {
-//         console.log('click', e.target.id);
-//     })
-// }
-
-// let element = document.getElementById("home");
-
-// element.addEventListener("click", clickHandler);
-
-// element.scrollIntoView();
-// element.scrollIntoView(false);
-// element.scrollIntoView({block: "end"});
-// element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover(); 
-  });
-
+// ----------------Création de la variable et écoute du clique
+//-----------------Création de la variable contenant la destination.
+//-----------------Scroll de destination
 
 let linkhome = document.getElementById("linkhome");
 linkhome.addEventListener("click", function (e) {
   console.log('click', e.target.id);
   let home = document.getElementById("home");
-  home.scrollIntoView();
-  home.scrollIntoView(false);
-  home.scrollIntoView({ block: "end" });
-  home.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+  home.scrollIntoView({ behavior: "smooth"});
 });
 
 let linkabout = document.getElementById("linkabout");
 linkabout.addEventListener("click", function (e) {
   console.log('click', e.target.id);
   let about = document.getElementById("about");
-  about.scrollIntoView();
-  about.scrollIntoView(false);
-  about.scrollIntoView({ block: "end" });
-  about.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+  about.scrollIntoView({ behavior: "smooth"});
 });
 
 let linkingredients = document.getElementById("linkingredients");
 linkingredients.addEventListener("click", function (e) {
   console.log('click', e.target.id);
   let ingredients = document.getElementById("ingredients");
-  ingredients.scrollIntoView();
-  ingredients.scrollIntoView(false);
-  ingredients.scrollIntoView({ block: "end" });
-  ingredients.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+  ingredients.scrollIntoView({ behavior: "smooth"});
 });
 
 let linkmenu = document.getElementById("linkmenu");
 linkmenu.addEventListener("click", function (e) {
   console.log('click', e.target.id);
   let menu = document.getElementById("menu");
-  menu.scrollIntoView();
-  menu.scrollIntoView(false);
-  menu.scrollIntoView({ block: "end" });
-  menu.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+  menu.scrollIntoView({ behavior: "smooth"});
 });
 
 let linkreviews = document.getElementById("linkreviews");
 linkreviews.addEventListener("click", function (e) {
   console.log('click', e.target.id);
   let reviews = document.getElementById("reviews");
-  reviews.scrollIntoView();
-  reviews.scrollIntoView(false);
-  reviews.scrollIntoView({ block: "end" });
-  reviews.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+  reviews.scrollIntoView({ behavior: "smooth"});
 });
 
 let linkreservations = document.getElementById("linkreservations");
 linkreservations.addEventListener("click", function (e) {
   console.log('click', e.target.id);
   let reservations = document.getElementById("reservations");
-  reservations.scrollIntoView();
-  reservations.scrollIntoView(false);
-  reservations.scrollIntoView({ block: "end" });
-  reservations.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+  reservations.scrollIntoView({ behavior: "smooth"});
 });
 
 
 function sommePrix(){
 
-    let resultat = document.getElementById('resultat').innerText;
-    resultat.innerHTML = parseFloat(resultat)
-    let Montableau = document.getElementsByName('Price')
+    let resultat = document.getElementById('resultat').innerText; //Declaration de la variable resultat 
+    resultat.innerHTML = parseFloat(resultat)//Declare que la variable resultat en chiffre a virgule
+    let Montableau = document.getElementsByName('Price')//Créé un tableau avec toutes les check box
     // Montableau = parseFloat(Montableau.value)
-    let totalPrix = 0
+    let totalPrix = 0//On initialise 
 
-   for ( i = 0; i < Montableau.length; i++) {
-        if (Montableau[i].checked){
-        totalPrix += parseFloat(Montableau[i].value)
-        resultat.innerText = totalPrix
-
+   for ( i = 0; i < Montableau.length; i++) {//Boucle qui parcourt le tableau 
+        if (Montableau[i].checked){//Vérifie si la check box est checker 
+        totalPrix += parseFloat(Montableau[i].value)//Si "oui" ajouter la valeure du tableau a "total prix"
         }
 
-    else {
-        document.getElementById('resultat').innerText = ""
-    }
-
    }
-   console.log(totalPrix)
-   return totalPrix
+   return totalPrix//Retourne le total
 }
-
-
-total = resultat
-
-console.log()
-
-function afficherPrix(){
-    total = sommePrix()
-    resultat.innerText = total + ' CHF'
+function afficherPrix(){//onction qui va appeller la fonction SommePrix
+    total = sommePrix()//
+    resultat.innerText = total + ' CHF'//Remplace la <div resultat> par le total + CHF
    }
