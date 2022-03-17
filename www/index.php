@@ -509,6 +509,14 @@ include 'main.php';
 
 <?php
 include 'formulaire.php';
+
+//if their are errors display them
+if (isset($error)) {
+    foreach ($error as $error) {
+        echo "<p style='color:#ff0000'>$error</p>";
+    }
+}
+
 ?>
 
                     <!-- <form action='' method='post'>

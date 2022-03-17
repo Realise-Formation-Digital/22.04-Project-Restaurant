@@ -1,14 +1,4 @@
-<?php
-?>
-
-
-<!DOCTYPE html>
-
-<html lang="fr">
-
-<body id="body" class="page-header">
-
-    <form class="row d-flex justify-content-center gx-0" action="" method="post">
+    <form class="row d-flex justify-content-center gx-0" method="post">
 
         <div class="reserv col-12 col-md-5 me-4 pb-3 form-group">
 
@@ -51,7 +41,3 @@
         <p><input type='submit' name='submit' value='Submit'></p>
     </form> -->
 
-
-</body>
-
-</html>

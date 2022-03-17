@@ -57,10 +57,3 @@ if (isset($_POST['submit'])) {
                     fclose($fp);
     }
 }
-
-//if their are errors display them
-if (isset($error)) {
-    foreach ($error as $error) {
-        echo "<p style='color:#ff0000'>$error</p>";
-    }
-}
