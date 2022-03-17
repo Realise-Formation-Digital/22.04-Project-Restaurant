@@ -65,3 +65,42 @@ function afficherPrix(){//onction qui va appeller la fonction SommePrix
     total = sommePrix()//
     resultat.innerText = total + ' CHF'//Remplace la <div resultat> par le total + CHF
    }
+
+
+
+
+// Password/Oeuil/Cacher ou Afficher
+
+   const eye = document.querySelector(".feather-eye");
+   const eyeoff = document.querySelector(".feather-eye-off");
+   const passwordField = document.querySelector("input[type=password]");
+
+   eye.addEventListener("click", () => {
+    eye.style.display = "none";
+    eyeoff.style.display = "block";
+    passwordField.type = "text";
+  });
+  
+  eyeoff.addEventListener("click", () => {
+    eyeoff.style.display = "none";
+    eye.style.display = "block";
+    passwordField.type = "password";
+  });
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
