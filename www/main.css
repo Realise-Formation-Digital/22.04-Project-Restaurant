@@ -1,0 +1,393 @@
+
+
+
+/* regle general pour la page*/
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: serif;
+}
+
+/*image de fond*/
+.background1 {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    min-height: 90vh;
+}
+
+/* regle css pour le navbar*/
+.navbarul a {
+    margin: 0 1em 0 1em;
+    padding-top: 2em;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* effect quand on passe par dessus du navbar*/
+.navbarul li:hover {
+    border-top: 2px solid white;
+}
+
+/* position pour le Lambda*/
+.brand {
+    padding-top: 2.8em;
+    margin-right: 15.5%;
+    padding-left: 10.5%;
+}
+
+/* regle pour les social media*/
+.social {
+    padding-top: 2.9em;
+}
+
+.social a {
+    padding-right: 1.2em;
+}
+
+/*position pour le container central*/
+.sec2 {
+    height: 77vh !important;
+    display: flex;
+    align-items: center;
+}
+
+/*regle pour container central*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-family: serif;
+}
+/* .plat  .espace-blanc correspond à la section review */
+.plat {
+    background-image: url(images/background.png);
+    background-position: bottom;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.espace-blanc {
+    height: 15vh;
+}
+
+
+
+/*Styles pour la page*/
+* { margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Image background*/
+#background {
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 75vh;
+}
+
+/*espace entre les foto et le form*/
+.gap {
+    gap: 5em;
+}
+
+/* styles pour la card */
+#card h1 {
+    color: rgb(200, 159, 45);
+}
+
+#card p {
+    font-size: 18px;
+}
+
+
+.card {
+    border: none !important;
+}
+
+#text {
+    padding-top: 10%;
+}
+
+/*regle pour le h1*/
+#h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+/* Styles pour le button*/
+#button1 {
+    opacity: 0.8;
+}
+
+/*Responsivite de la page*/
+@media only screen and (max-width: 768px) {
+    #h1 {
+        font-size: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    #h1 {
+        font-size: 45px;
+    }
+  }
+
+
+#poid-de-principal{
+    margin-top: 200px;
+
+}
+
+  #boite-assiete{
+      padding: 50px;
+      margin-bottom: 70px;
+      width: 600px;
+      height: 600px;
+}
+
+#nourriture{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    color:#bf8219;
+}
+#nourriture-diago
+{
+    text-align: center;
+    margin-bottom: 70px;
+}
+#grandeur
+{width: 350px;}
+
+#about-grandeur{
+    margin-bottom: 25px;
+}
+#texte-de-base{
+    text-align: justify;
+}
+@media screen and (max-width:768px){
+    #poid-de-principal{
+        width: 100%;
+        margin: 0;
+        margin-top: 100px;
+    }
+    #about-grandeur{
+        width: 150px;
+    }
+.box {
+    left: 10rem;
+}
+}
+#img-card {
+    background-image: url(images/Text\ Background.png);
+}
+
+#bottom-card {
+    padding-bottom: 5rem;
+}
+
+#quoteMark {
+    font-size: 1000px;
+}
+
+/*taille pour le divider*/
+#divider1 {
+    width: 58%;
+}
+
+/*couleur pour le button*/
+#btn-reservation {
+    background-color: rgb(200, 159, 45) ;
+}
+
+/* couleur pour le form*/
+label {
+    color: rgb(200, 159, 45);
+    font-weight: bold;
+}
+.section-menu{
+    background-image: url("/images/background-menu.png");
+    object-fit: cover;
+    background-size: cover;
+    font-size: 32px;
+    min-height: 75vh;
+    font-family: 'Abril Fatface', cursive;
+    
+  
+    
+}
+.section-menu h3{
+    font-size: 1em;
+    
+}
+.gold-color{
+    color:#bf8219;
+}
+.item-al{
+    border-bottom: 1px solid #bf8219 ;
+    font-size: 0.6em;
+    padding-right: 00.5em;
+    opacity: 0.8;
+    
+    
+}
+.item-al-description{
+    font-size: 0.4em;
+    padding: 0.5em 0 1em 0;
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu1{
+    margin:0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#item-al-mackerel{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#olive-special-description{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#main-dishes, #salads{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+#special1{
+    background: rgb(212,210,210);
+    background: linear-gradient(90deg, rgba(212,210,210,0.16290266106442575) 0%, rgba(191,130,25,1) 100%);
+    font-size: 00.4em;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+#special-calque2{
+    background-image: url(/images/specialcalque2.png );
+    background-size: cover;
+    font-size: 00.4em;
+    padding: 0 ;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+#special1-box, #special2-box{
+    margin-right: -0.5em;
+    padding-right: 0;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.h3footer{
+    font-size: 24px;
+    margin-top: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.img-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 0;
+}
+.img-box img{
+    width: 160px;
+}
+.p-footer{
+    font-size: 14px;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+}
+.footer-img{
+    width: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+#p-special-footer{
+    margin-bottom: 50px;
+}
+#our-location{
+    padding-right: 10%;
+}
+ #about-us{
+    padding-left: 10%;
+}
+@media screen and (max-width:992px) {
+    #espace{
+        display: none;
+    }
+    #about-us, #our-location, #openning-hours{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
+
+
+
+
+/* styles css pour la responsivite*/
+@media only screen and (max-width: 1200px) {
+    body #background {
+        object-fit: cover;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .reserv {
+        margin-left: 1.5rem;
+    }
+
+    #date1 {
+        padding-bottom: 1rem;
+    }
+  }
+/*id du niveau 0*/
+#image_background{
+    background-image: url("/photos/background_ingredients_N0.jpg");
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100%; 
+    padding: 5rem 0;
+}
+
+/*class du niveau SEPARATEUR (N1)*/
+#img-card {
+    background-image: url(photos/ingredients_N1.png);
+    background-size: cover;
+}
+
+/*3 formes rectangulaires (N1) */
+#cardcont {
+    max-height: 100%;
+    display: flex;
+    align-content: center;
+}
+/*2 EME RECTANGLE (N1)*/
+#ingre {
+    background-image: url(photos/ingredients_N2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#listingre {
+    line-height: 2;
+    font-size: 20px;
+}
+#item-al-price {
+    left: 20vh;
+}
+
+
+

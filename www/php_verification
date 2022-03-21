@@ -1,0 +1,22 @@
+if (isset($_POST['submit']))
+{
+   
+$Nom = htmlspecialchars(trim($_POST['Nom']));
+$Prenom = htmlspecialchars(trim($_POST['Prenom']));
+$email = htmlspecialchars(trim($_POST['email']));
+$password = htmlspecialchars(trim($_POST['password']));
+$repeatpassword = htmlspecialchars(trim($_POST['repeatpassword']));
+   
+if ($Nom&&$Prenom&&$email&&$password&&$repeatpassword)
+        {
+        if (strlen($password)>=6)
+            {
+                if ($password==$repeatpassword)
+                {
+            // On crypte le mot de passe
+                $password = md5($password);
+                }else echo "Les mots de passe ne sont pas identiques";
+            }else echo "Le mot de passe est trop court !";
+        }else echo "Veuillez saisir tous les champs !";
+           
+}
