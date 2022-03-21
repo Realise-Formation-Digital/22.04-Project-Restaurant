@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
     <form class="row d-flex justify-content-center gx-0" method="post">
+=======
+    <form class="row d-flex justify-content-center gx-0" action="" method="post">
+>>>>>>> Stashed changes
 
         <div class="reserv col-12 col-md-5 me-4 pb-3 form-group">
 
@@ -34,6 +38,7 @@
         </div>
 
     </form>
+<<<<<<< Updated upstream
 
     <!-- <form action='' method='post'>
         <p><label>Name</label><br><input type='text' name='name' value=''></p>
@@ -41,3 +46,5 @@
         <p><input type='submit' name='submit' value='Submit'></p>
     </form> -->
 
+=======
+>>>>>>> Stashed changes

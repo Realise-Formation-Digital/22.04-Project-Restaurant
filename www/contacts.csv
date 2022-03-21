@@ -1,5 +1,9 @@
 Toto,toto@titi.com,"Toto ajouté."
 "Patrick Vavrina",patrick@club-linux.ch,Message1
 Patrick,patrick@toto.com,Message2
+<<<<<<< Updated upstream
 "Patrick Vavrina",patrick@club-linux.ch,Message3
 "Patrick Vavrina",patrick@club-linux.ch,Message3
+=======
+"Patrick Vavrina",patrick@club-linux.ch,Hello.
+>>>>>>> Stashed changes

@@ -57,3 +57,13 @@ if (isset($_POST['submit'])) {
                     fclose($fp);
     }
 }
+<<<<<<< Updated upstream
+=======
+
+//if there are errors display them
+if (isset($error)) {
+    foreach ($error as $error) {
+        echo "<p style='color:#ff0000'>$error</p>";
+    }
+}
+>>>>>>> Stashed changes
